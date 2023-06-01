@@ -43,5 +43,5 @@ module "http-instances" {
 }
 
 module "s3Bucket" {
-  source  = "modules/s3Bucket"
+  source  = "./modules/s3Bucket"
 }
